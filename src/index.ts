@@ -1,4 +1,4 @@
-import { create_organisation } from "./setup";
+import { create_organisation } from "./utils/setup";
 import { calculate_membership_fee } from "./controllers/membership";
 
 // import test organisation from sample json (test_organisation.json)

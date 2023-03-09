@@ -1,6 +1,6 @@
 import { check_fixed_membership_fee } from "../../src/controllers/membership";
 import { OrganisationUnit } from "../../src/types/organisation.types";
-import { create_organisation } from "../../src/setup";
+import { create_organisation } from "../../src/utils/setup";
 
 describe("membership fee", () => {
     var test_organisation: Map<string, OrganisationUnit>;

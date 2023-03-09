@@ -1,9 +1,9 @@
-import { OrganisationUnit } from "./types/organisation.types";
-import test_organisation from "../test_organisation.json";
+import { OrganisationUnit } from "../types/organisation.types";
+import test_organisation from "../../test_organisation.json";
 
 
 /**
- * 
+ * loads a sample organisation from the test organisation json provided
  * @returns Map<string, OrganisationUnit> from test_organisation.json
  */
 export const create_organisation = () => {
