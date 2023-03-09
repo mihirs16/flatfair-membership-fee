@@ -1,0 +1,20 @@
+{
+  "name": "flatfair-membership-fee",
+  "version": "1.0.0",
+  "description": "full-stack coding challenge for the jr. swe role at flatfair",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mihir Singh <mihirs16@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.14.6",
+    "express": "^4.18.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
