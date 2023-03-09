@@ -3,10 +3,11 @@ import { MembershipResult, RentPeriod } from "../types/membership.types";
 import * as constants from "../utils/constants";
 
 /**
- * 
+ * to calculate the membership fee from given parameters for an organisation unit
  * @param rent_amount 
  * @param rent_period 
  * @param organisation_unit 
+ * @returns MembershipFeeResult with success and membership_fee as integer
  */
 export const calculate_membership_fee = (
     rent_amount: number, 
@@ -59,10 +60,11 @@ export const calculate_membership_fee = (
 
 
 /**
- * 
+ * to validate the amount of rent as per max and min weekly or monthly values
+ * (to change constraints, go to /src/utils/constants)
  * @param rent_amount 
  * @param rent_period 
- * @returns 
+ * @returns boolean for rent amount being in bounds or not
  */
 export const validate_rent_amount = (rent_amount: number, rent_period: RentPeriod): boolean => {
     if (rent_period == "week") {
