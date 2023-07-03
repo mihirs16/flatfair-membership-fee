@@ -25,4 +25,3 @@ npm start 150000 week branch_b
 npm test
 ```
 
-- Added by Test branch A
